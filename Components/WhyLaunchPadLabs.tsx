@@ -27,7 +27,7 @@ const LaunchProcess = [
 
 const WhyLaunchPadLabs = () => {
   return (
-    <section className="w-full bg-[#F3F7F8]">
+    <section className="w-full bg-[#FFFFFF]">
       <div className="max-w-6xl mx-auto py-16 md:py-20 px-4 sm:px-6 flex flex-col items-center gap-12">
         {/* Title Section */}
         <div className="flex flex-col items-center text-center gap-4">
