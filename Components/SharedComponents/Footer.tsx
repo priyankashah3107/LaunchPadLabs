@@ -46,7 +46,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white border-t">
+    <footer className="w-full bg-white ">
       <div className="max-w-7xl mx-auto px-14 sm:px-1  py-16 grid grid-cols-1 md:grid-cols-6 gap-10">
         {/* Left Section */}
         <div className="space-y-5 md:col-span-2">

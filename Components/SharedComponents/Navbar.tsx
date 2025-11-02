@@ -21,21 +21,20 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Left: Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-[46px] h-[42px]">
+          <div className="flex items-center gap-2">
             <Image
-              src="/icon.png"
-              alt="LaunchPad Labs logo"
-              width={42}
-              height={42}
-              className="shadow-md rounded-md "
+              src="/logo.png"
+              alt="LaunchPad logo"
+              width={70}
+              height={70}
             />
+            <h2 className="text-2xl font-semibold text-black">
+              <span className="bg-gradient-to-r from-[#2209A7] to-[#03BDF7] bg-clip-text text-transparent font-semibold">
+                LaunchPad
+              </span>{" "}
+              Labs
+            </h2>
           </div>
-          <h1 className="text-2xl font-semibold flex gap-1">
-            <span className="bg-gradient-to-r from-[#2209A7] to-[#03BDF7] bg-clip-text text-transparent font-semibold">
-              LaunchPad
-            </span>
-            <span className="text-stone-900">Labs</span>
-          </h1>
         </div>
 
         {/* Desktop Nav Links */}

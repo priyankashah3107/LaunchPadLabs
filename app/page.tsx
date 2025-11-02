@@ -1,7 +1,12 @@
+import OurImpact from "@/Components/OurImpact";
 import React from "react";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <OurImpact />
+    </>
+  );
 };
 
 export default page;
