@@ -31,7 +31,7 @@ const OurProcess = () => {
         </div>
 
         {/* Comparison Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2  md:gap-0 mt-8 md:mt-10 w-full justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6  md:gap-0 mt-8 md:mt-10 w-full justify-items-center">
           {/* Traditional Development */}
           <div className="rounded-3xl border-2 border-dashed border-[#FFACAC] p-5 sm:p-6 md:p-8 w-full sm:w-[380px] md:w-[420px] lg:w-[458px] min-h-[370px] md:h-[411px]">
             <div className="flex w-[90%] sm:w-[80%] mx-auto bg-white shadow-sm px-4 sm:px-6 py-1 rounded-full mb-5 justify-center items-center">
