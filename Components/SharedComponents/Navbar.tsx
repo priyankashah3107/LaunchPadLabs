@@ -19,26 +19,19 @@ const Navbar = () => {
   return (
     <nav className="bg-[#F3F7F8] w-full py-3 px-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Left: Logo */}
+        {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/logo.png"
-              alt="LaunchPad logo"
-              width={70}
-              height={70}
-            />
-            <h2 className="text-2xl font-semibold text-black">
-              <span className="bg-gradient-to-r from-[#2209A7] to-[#03BDF7] bg-clip-text text-transparent font-semibold">
-                LaunchPad
-              </span>{" "}
-              Labs
-            </h2>
-          </div>
+          <Image src="/logo.png" alt="LaunchPad logo" width={70} height={70} />
+          <h2 className="text-2xl font-semibold text-black">
+            <span className="bg-gradient-to-r from-[#2209A7] to-[#03BDF7] bg-clip-text text-transparent font-semibold">
+              LaunchPad
+            </span>{" "}
+            Labs
+          </h2>
         </div>
 
-        {/* Desktop Nav Links */}
-        <div className="hidden md:flex items-center gap-8">
+        {/* Nav Links (visible only on large screens) */}
+        <div className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
             <Link
               key={item.name}
@@ -55,19 +48,19 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Hamburger / Cross visible on tablet + mobile (md and below) */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-stone-900"
+          className="block lg:hidden text-stone-900"
           aria-label="Toggle menu"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Dropdown Menu (for mobile + tablet) */}
       {isOpen && (
-        <div className="md:hidden mt-4 space-y-4 px-2 pb-4 max-w-6xl mx-auto">
+        <div className="lg:hidden mt-4 space-y-4 px-2 pb-4 max-w-6xl mx-auto">
           {navItems.map((item) => (
             <Link
               key={item.name}
