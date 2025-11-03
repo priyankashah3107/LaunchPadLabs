@@ -50,15 +50,10 @@ export default function OurFounder() {
             </div>
             <div className="flex flex-col md:flex-row  ">
               <div className="bg-white w-full z-10 relative md:top-1/2 md:left-20 p-6 rounded-lg h-48 border-l-4 border-gray-300 max-w-md ">
-                <p className="text-gray-700 leading-relaxed">
-                  <span className="font-medium">
-                    Most startups don't fail from bad ideas - they fail because
-                    they launch too slow.
-                  </span>
-                  <br />
-                  <span className="italic">
-                    With LaunchPad Labs, you can go live in just 2 weeks.
-                  </span>
+                <p className=" leading-relaxed text-black text-base font-medium  ">
+                  Most startups don't fail from bad ideas - they fail because
+                  they launch too slow. With LaunchPad Labs, you can go live in
+                  just 2 weeks.
                 </p>
               </div>
               <div className="">
@@ -88,7 +83,7 @@ export default function OurFounder() {
               </div>
 
               {/* 🌐 Mobile & Tablet Bio */}
-              <div className="flex flex-col space-y-4 text-gray-700 leading-relaxed md:hidden">
+              <div className="flex flex-col space-y-4   text-black text-sm font-medium leading-relaxed md:hidden">
                 <p>
                   I’m Harshdeep, founder of LaunchPad Labs - a builder at heart
                   and a partner to founders who move fast.
@@ -111,8 +106,10 @@ export default function OurFounder() {
 
                 {/* Signature */}
                 <div className="pt-4 border-t border-gray-200">
-                  <h3 className="text-lg font-bold text-gray-900">Harshdeep</h3>
-                  <p className="text-sm text-gray-500">
+                  <h3 className="text-black text-base font-semibold">
+                    Harshdeep
+                  </h3>
+                  <p className="text-neutral-400 text-xs font-medium ">
                     Founder, LaunchPad Labs
                   </p>
                 </div>
