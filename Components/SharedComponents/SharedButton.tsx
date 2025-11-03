@@ -13,7 +13,7 @@ const SharedButton = ({ label, size = "small", className }: ButtonProps) => {
   const sizeStyles = {
     small: "w-36 h-12 text-base",
     medium: "w-44 h-14 text-lg",
-    large: "w-52 h-16 text-xl",
+    large: "w-44 h-13 text-md",
   };
 
   return (
