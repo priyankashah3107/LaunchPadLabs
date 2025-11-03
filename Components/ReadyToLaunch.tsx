@@ -44,7 +44,7 @@ export default function ReadyToLaunch() {
             <SharedButton
               label="Book My Free MVP Call"
               size="large"
-              className="w-full sm:w-1/2 lg:w-[20%]  lg:text-base"
+              className="lg:w-[20%] w-full sm:w-1/2  lg:text-base"
             />
           </div>
         </div>
