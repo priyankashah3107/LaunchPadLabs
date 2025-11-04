@@ -57,7 +57,7 @@ const MarqueeTestimonials = () => {
       {/* <TitleButton text="Testimonials" /> */}
 
       {/* Two-column vertical marquee */}
-      <div className="flex gap-5">
+      <div className="flex gap-5 ml-5 sm:ml-0">
         {/* Left column – normal direction (top to bottom) */}
         <Marquee pauseOnHover vertical className="h-[600px] [--duration:20s]">
           {marqueeCardData.map((item, index) => (

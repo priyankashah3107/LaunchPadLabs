@@ -57,12 +57,12 @@ const VisionToLaunchPad = () => {
               <SharedButton
                 label="Book My Free MVP Call"
                 size="large"
-                className="text-sm lg:w-60 relative  lg:top-30 lg:left-32 z-10"
+                className="text-[11px] md:text-sm lg:w-60 relative  lg:top-30 lg:left-32 z-10"
               />
             </div>
 
             {/* Calendar slightly lower */}
-            <div className="mt-6">
+            <div className="mt-6 w-full ">
               <Calendar
                 mode="single"
                 selected={selectedDate}
