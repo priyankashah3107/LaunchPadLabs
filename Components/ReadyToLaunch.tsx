@@ -123,7 +123,7 @@ export default function ReadyToLaunch() {
             </div>
 
             {/* Right Panel - Time Slots */}
-            <div className="p-6 bg-white">
+            <div className="p-6 bg-white mt-10 sm:mt-0">
               <div className="flex justify-between items-center mb-4">
                 <h4 className="text-lg font-semibold text-gray-400">
                   {selectedDate.toLocaleDateString("en-US", {
