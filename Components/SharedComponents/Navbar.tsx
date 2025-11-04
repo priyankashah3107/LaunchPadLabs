@@ -9,8 +9,8 @@ const navItems = [
   { name: "How It Works", link: "/" },
   { name: "Our Work", link: "/" },
   { name: "Our Process", link: "/" },
-  { name: "Founder", link: "/" },
-  { name: "Pricing", link: "/" },
+  { name: "Founder", link: "/founder" },
+  { name: "Pricing", link: "/pricing" },
 ];
 
 const Navbar = () => {
