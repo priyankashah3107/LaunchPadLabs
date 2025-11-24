@@ -6,9 +6,9 @@ import { Menu, X } from "lucide-react";
 import SharedButton from "./SharedButton";
 
 const navItems = [
-  { name: "How It Works", link: "/" },
-  { name: "Our Work", link: "/" },
-  { name: "Our Process", link: "/" },
+  { name: "How It Works", link: "/faq" },
+  { name: "Our Work", link: "/studylist" },
+  { name: "Our Process", link: "/casestudy" },
   { name: "Founder", link: "/founder" },
   { name: "Pricing", link: "/pricing" },
 ];
